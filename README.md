@@ -1,4 +1,4 @@
-# gawtamforgetoolkit
+# Unity_Forge_Plugin
 
 This package contains the required files for converting the SVF file into an Unity readable gameobject.
 To upload and covert a model into and SVF file refer the heroku app. https://imaginateforge.herokuapp.com/
@@ -14,7 +14,7 @@ Then the user has to click on translate by right clicking the uploaded model. Wa
   
 How to use the forge plugin,
 
-1. The scene in the package has the necessary canvas and gameobjects
+1. The prefabs in the package has the necessary canvas and gameobjects
 2. The Forge folder has the necessary scripts for the running of the forgeloader object.
 3. The combined.cs script does 4 API calls to retrieve the SVF file from the bucket and translte it to a Unity scene. 
 4. Also please make sure that the forge client id and secret in both script and heroku app is same as mentioned in the forge application created under your account.
